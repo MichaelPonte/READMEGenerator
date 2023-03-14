@@ -1,6 +1,10 @@
-// TODO: Include packages needed for this application
-const inquirer = require('inquirer');
 const fs = require('fs');
+
+const inquirer = require('inquirer');
+const path = require('path');
+
+const generateMarkdown = require('./utils/generateMarkdown');
+
 
 // TODO: Create an array of questions for user input
 const questions = ["Please enter a description of your application", "Please enter installation instructions", "Please enter the usage of the application", "Please enter contribution guidlines", "Please enter test instructions"];
