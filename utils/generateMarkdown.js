@@ -31,6 +31,55 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `# ${data.title}
 
+  ${renderLicenseBadge(data.license)}
+
+  ## Description
+
+  ${data.description}
+
+  ## Table of Contents
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+  ${renderLicenseLink(data.license)}
+  * [Contributing](#contributing)
+
+  * [Tests](#tests)
+
+  * [Questions](#questions)
+
+  ## Installation
+
+  For installing all the necesarry dependecies, run the command below:
+
+  \`\`\`
+  ${data.installation}
+  \`\`\`
+
+  ## Usage
+
+  ${data.usage}
+
+  ${renderLicenseSection(data.license)}
+
+  ## Contributing
+
+  ${data.contributing}
+
+  ## Tests
+
+  Run test with the following command below:
+
+  \`\`\`
+  ${data.tests}
+  \`\`\`
+
+  ## Questions
+
+  For any questions or problems concerning the repo, please open an issue under the repo in GitHub 
+  or contact me directly at ${data.email}. You can find more of my work at [${data.github}](https://github.com/${data.github}/).
+  
 `;
 }
 
