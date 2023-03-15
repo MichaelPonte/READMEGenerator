@@ -1,10 +1,10 @@
-# Testing Generator
+# README Generator
 
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
   ## Description
 
-  I am providing this descriptions to see if the README generator i have created is working properly
+  This application is a README generator that uses the terminal and the package inquirer to ask the user different questions to add the created README file. The README file is then generated with all the users information they had provided.
 
   ## Table of Contents
 
@@ -30,7 +30,7 @@
 
   ## Usage
 
-  idk
+  It is an aplication which creates a README file with provided information, just launch and asnwer the questions to generate.
 
   ## License
 
@@ -38,7 +38,7 @@
 
   ## Contributing
 
-  idk
+  nothing
 
   ## Tests
 
