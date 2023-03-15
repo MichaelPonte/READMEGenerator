@@ -25,6 +25,7 @@ function renderLicenseSection(license) {
   return ``;
 }
 
+// Function to initialize app
 function generateMarkdown(data) {
   return `# ${data.title}
 
